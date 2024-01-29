@@ -1,0 +1,10 @@
+'''Ask for two numbers. if the first one is larger than the second, dispay the second number first 
+and then the first number, otherwise show the first number first and then the second'''
+
+num1 = int(input("Enter the first number: "))
+num2 = int(input("Enter the second number: "))
+
+if (num1 > num2):
+    print(f"Second Number: {num2}\nFirst Number: {num1}")
+else:
+    print(f"First Number: {num1}\nSecond Number: {num2}")

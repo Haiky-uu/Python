@@ -1,0 +1,9 @@
+''' Ask he user to enter their favourite colour. if they ener "red", "RED" or "Red" display the message "I like red too",
+otherwise display the message "i don't like [colour], I prefer red" '''
+
+colour = input("Enter your favourite colour: ")
+
+if (colour.lower() == 'red' or colour.upper() == 'RED' or colour.title() == 'Red'):
+    print("I like red too")
+else:
+    print(f"i don't like {colour}, I prefer red")
