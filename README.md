@@ -1,5 +1,5 @@
 # Python
-## Assignments and Chillanges
+## Assignments and Challenges
 
 This is a python repo,
 contains assignments and challenges 
