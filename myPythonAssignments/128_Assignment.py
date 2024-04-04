@@ -2,13 +2,13 @@
 
 import datetime
 
-date = input("Enter day month and year: ")
-day, month, year = date.split()
+import datetime
 
-date1 = datetime.date(int(year), int(month), int(day))
-print(date1)
-
-day = date1.day+12
-print(day)
-
-
+user = str(input("Enter a date in day/month/year:"))
+print(user)
+date = user.strip().split('/')
+print(date)
+date = datetime.date(int(date[2]),int(date[1]),int(date[0]))
+print(date)
+new_day = date.strftime('%Y,%m,%d')
+print(new_day)

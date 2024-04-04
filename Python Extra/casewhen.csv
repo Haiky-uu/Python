@@ -1,0 +1,4 @@
+cal,min,max,bucket_size
+amt,1,1000,50
+qty,1,500,20
+price,1,100,15

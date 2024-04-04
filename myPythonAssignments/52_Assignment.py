@@ -1,43 +1,27 @@
-# 52 get a string from user and write a function to return 1st non repeating character (if 1st character is not repeating then
-# return -1)
+# 52 get a string from user and write a function to return 1st non repeating character (if 1st character is not repeating then return -1)
 
-'''
-string = input("Enter a string:")
-print("You entered: ",string)
-list1 = []
-for s in string:
-    #print(s)
-    list1.append(s)
-#print(list1)
+string = input("Enter a string: ")
 
-for l in range(len(list1)):
-    #print(l)
-    #print(list1[l+1:])
-    #print(list1[:l])
-    if (list1[l] not in list1[l+1:]) and  (list1[l] not in list1[:l]):
-        print("first non repeating char is",list1[l])
+index = -1
+fnc = ''
+
+if (len(string) == 0):
+    print("No string is provided")
+
+#print("String Provided: ")
+
+for i in string:
+    #print(i,end="")
+
+
+    if (string.count(i)==1):
+        fnc += i
         break
-else:
-    print("all are repeating")
-'''
-# Using function
-
-def nonrepat(string):
-    for l in range(len(string)):
-        if (string[l] not in string[l+1:]) and (string[l] not in string[:l]):
-            print("First Non repeating character is:",string[l])
-            break
     else:
-        return -1
+        index += 1
 
-string = input("Enter a string:")
-print("You entered",string)
-nonrepat(string)
-
-
-
-
-
-
-
+if (index == len(string)-1):
+    print("\nEvery thing is repeating")
+else:
+    print("\nThis character is non repeating", fnc)
 
