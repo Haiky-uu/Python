@@ -2,7 +2,7 @@
 
 import pandas as pd
 
-file = pd.read_csv('./tran_dtl_1_2019.csv',names=['trans_id','product_id','qty','price','date'])
+file = pd.read_csv('tran_dtl_1_2019.csv', names=['trans_id', 'product_id', 'qty', 'price', 'date'])
 
 df1 = pd.DataFrame(file)
 print(df1[2:5])   # Slicing selecting only partial rows

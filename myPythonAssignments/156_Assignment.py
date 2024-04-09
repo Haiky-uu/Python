@@ -8,7 +8,7 @@ file = pd.read_csv('./tran_hdr_1_2019.csv')
 df1 = pd.DataFrame(file)
 print("trans_hdr_data_frame\n",df1)
 
-file2 = pd.read_csv('./tran_dtl_1_2019.csv')
+file2 = pd.read_csv('tran_dtl_1_2019.csv')
 
 df2 = pd.DataFrame(file2)
 print("trans_dtl_data_frame\n",df2)

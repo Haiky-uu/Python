@@ -3,7 +3,7 @@
 import pandas as pd
 pd.set_option('display.max_columns',9)
 hdr = pd.read_csv('./tran_hdr_1_2019.csv',names=['trans_id','store_id','member_id','date'])
-dtl = pd.read_csv("./tran_dtl_1_2019.csv", names=['trans_id','product_id','store_id','price','date'])
+dtl = pd.read_csv("tran_dtl_1_2019.csv", names=['trans_id', 'product_id', 'store_id', 'price', 'date'])
 
 print(hdr)
 print(dtl)

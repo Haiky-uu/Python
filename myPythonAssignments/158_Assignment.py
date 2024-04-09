@@ -2,7 +2,7 @@
 
 import pandas as pd
 
-file = pd.read_csv('./tran_dtl_1_2019.csv',names=['trans_id','prod_id','qty','sale_amt','date'])
+file = pd.read_csv('tran_dtl_1_2019.csv', names=['trans_id', 'prod_id', 'qty', 'sale_amt', 'date'])
 
 df1 = pd.DataFrame(file)
 print(df1)

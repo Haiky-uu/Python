@@ -2,7 +2,7 @@
 
 import pandas as pd
 
-file = pd.read_csv('./tran_dtl_1_2019.csv')
+file = pd.read_csv('tran_dtl_1_2019.csv')
 
 df1 = pd.DataFrame(file)
 
