@@ -1,4 +1,4 @@
-product_id,description,price,category,max_qty
+prod_id,description,price,category,qty
 1,Biscuits,1.5,Baked goods,5
 2,Bread,1.25,Baked goods,5
 3,Cheeslings,2.45,Baked goods,5
@@ -99,3 +99,6 @@ product_id,description,price,category,max_qty
 98,Organic Trail Mix,4.99,Snacks,3
 99,Roasted Pistachios,4.99,Snacks,3
 100,Vege-Straws,1.99,Snacks,5
+101,,22.6,Baked goods,6
+102,,15.0,Baked goods,8
+103,,25.6,Baked goods,2
