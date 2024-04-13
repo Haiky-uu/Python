@@ -2,7 +2,6 @@
 # and find number of products by category and write it to csv.
 
 import mysql.connector
-import pandas
 import pandas as pd
 
 conn = mysql.connector.connect(
