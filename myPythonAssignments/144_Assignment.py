@@ -17,11 +17,11 @@ if conn.is_connected():
 cursor = conn.cursor()
 
 cursor.execute("Select * from product")
-
 prd_d = cursor.fetchall()
+print(prd_d)
 
 pro = pd.DataFrame(prd_d,columns=['prod_id','description','price','category','qty'])
 
-print(pro)
+#print(pro)
 
 pro.to_csv('./product.csv',index=False)

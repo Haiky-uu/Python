@@ -21,6 +21,4 @@ class Person:
     
     def print_person(self):
         print(self.first_name, self.last_name,self.__age, self._gender)
-        
-        
-        
+

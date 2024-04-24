@@ -1,4 +1,4 @@
-# 157 add a new hard coded column with value = "TEST" to tran_hdr dataframe
+# 157 Add a new hard coded column with value = "TEST" to tran_hdr dataframe
 
 import pandas as pd
 

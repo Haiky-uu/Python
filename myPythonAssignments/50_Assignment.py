@@ -1,4 +1,5 @@
-# 50 get a list a = [2,3,4,55,33,4,55,343,66,77,88,99] and write a program to find list of non adjacent numbers of every number.
+# 50 get a list a = [2,3,4,55,33,4,55,343,66,77,88,99] and write a program to find list of non adjacent
+# numbers of every number.
 
 a = [2,3,4,55,33,4,55,343,66,77,88,99]
 
