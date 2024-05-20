@@ -12,15 +12,13 @@ def program(dic):
     user = input("Enter username: ")
     passw = input("Enter password: ")
     #print(dic)
-    for k,v in dic.items():
-        if k == user and v == passw:
-            print("User is: ",k,"Password is: ",v)
-            print("Valid user")
-            break
+    if user in dic:
+        if passw == dic[user]:
+            print("valid user")
+        else:
+            print('invalid')
     else:
-        print("Not valid")
-
-
+        print('invalid')
 def main():
    dic = extract()
    program(dic)

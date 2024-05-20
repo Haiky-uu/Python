@@ -1,0 +1,15 @@
+## This yaml file supports values as lists
+sports:
+  - soccer
+  - football
+  - basketball
+  - cricket
+  - hockey
+  - table tennis
+countries:
+  - USA
+  - India
+  - China
+  - Germany
+  - France
+  - Spain
